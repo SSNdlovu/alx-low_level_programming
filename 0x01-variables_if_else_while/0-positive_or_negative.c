@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <time.h> 
+#include <time.h>
 #include <stdlib.h>
 /**
- * main - main block 
+ * main - main block
  * description: get a random number and print number
  * return 0
  */
