@@ -4,16 +4,17 @@
 /**
  * main - main clock
  * Description: prints all single digit numbers
+ * starting from 0, followed by a new line
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char C = 'Z';
+	char c = 'Z';
 
-	while (C >= 'a')
+	while (c >= 'a')
 	{
-		putchar(C);
-		C--;
+		putchar(c);
+		c--;
 	}
 
 	putchar('\n');
