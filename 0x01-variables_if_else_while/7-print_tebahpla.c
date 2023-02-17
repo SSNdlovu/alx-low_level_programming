@@ -4,6 +4,7 @@
 /**
  * main - prints all single digits number of base 10 starting from 0
  * Description: prints all single digits number of base 10
+ * starting from 0, followed by a new line
  * Returns: Always 0 (Success)
  */
 int main(void)
