@@ -1,9 +1,7 @@
-#include <main.h>
-#include <time.h>
-#include <stdlib.h>
+#include "main.h"
 
 /**
- * main - Entry point
+ * main - print _putchar
  *
  * Return: Always 0 (Success)
  */
