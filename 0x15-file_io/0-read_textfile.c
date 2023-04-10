@@ -5,8 +5,8 @@
  * read_textfile- R
  * @filename: text file
  * @letters: number of letters
- * Return: w- actual number 
- * 0 when function fails 
+ * Return: w- actual number
+ * 0 when function fails
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
