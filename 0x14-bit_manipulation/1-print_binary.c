@@ -6,22 +6,22 @@
  */
 void print_binary(unsigned long int n)
 {
-	int x, count = 0;
+	int x, countt = 0;
 	unsigned long int curr;
 
 	for (x = 63; x >= 0; x--)
 	{
-		curr = n >> i;
+		curr = n >> x;
 
 		if (curr & 1)
 		{
 			_putchar('1');
-			count++;
+			countt++;
 		}
-		else if (count)
+		else if (countt)
 			_putchar('0');
 	}
-	if (!count)
+	if (!countt)
 		_putchar('0');
 }
 
