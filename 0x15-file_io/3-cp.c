@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 
 	bufferr = create_buffer(argv[2]);
 	fromm = open(argv[1], O_RDONLY);
-	rr = read(from, buffer, 1024);
+	rr = read(fromm, bufferr, 1024);
 	too = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do {
